@@ -14,9 +14,11 @@ conda config --add channels conda-forge
 conda create --name machinelearn python=3.5 jupyter scikit-learn pandas matplotlib tensorflow keras
 ```
 5. Change the backend to Tensorflow:
+```
 Navigate to %LOCALAPPDATA%\Continuum\Anaconda3\envs\machinelearn\etc\conda\activate.d
 edit the batch file. Replace "theano" with "tensorflow"
 ```
 6. activate the new environment
 ```
 activate machinelearn
+```
