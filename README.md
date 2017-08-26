@@ -17,5 +17,6 @@ conda create --name machinelearn python=3.5 jupyter scikit-learn pandas matplotl
 ```
 activate machinelearn
 ```
-6. Change the backend to Tensorflow in keras.json:
-C:\Users\???\.keras\keras.json
+6. Change the backend to Tensorflow:
+Navigate to %LOCALAPPDATA%\Continuum\Anaconda3\envs\machinelearn\etc\conda\activate.d
+edit the batch file. Replace "theano" with "tensorflow"
