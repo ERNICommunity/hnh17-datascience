@@ -18,3 +18,5 @@ conda create --name machinelearn python=3.5 jupyter scikit-learn pandas matplotl
 ```
 activate machinelearn
 ```
+7. Change the backend to Tensorflow in keras.json:
+C:\Users\???\.keras\keras.json
