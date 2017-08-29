@@ -13,7 +13,7 @@ conda config --add channels conda-forge
 ```
 conda create --name machinelearn python=3.5 jupyter scikit-learn pandas matplotlib tensorflow keras
 ```
-5. Change the backend to Tensorflow:
+5. Change the backend to Tensorflow (Windows - nb Mac users may not need this step):
 ```
 Navigate to %LOCALAPPDATA%\Continuum\Anaconda3\envs\machinelearn\etc\conda\activate.d
 edit the batch file. Replace "theano" with "tensorflow"
@@ -21,4 +21,8 @@ edit the batch file. Replace "theano" with "tensorflow"
 6. activate the new environment
 ```
 activate machinelearn
+```
+7. start the Jupyter interactive notebook
+```
+juypter notebook
 ```
