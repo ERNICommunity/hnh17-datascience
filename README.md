@@ -1,4 +1,7 @@
 # hnh17-datascience
+
+:warning: **REPOSITORY NOT ACTIVE SINCE 2017 Dependabot alerts in git security settings disabled**
+
 The repository for the data science track at HnH17
 
 ### Toolchain setup
